@@ -48,7 +48,6 @@ export default function Index({ allPosts }: Props) {
 
     const envia = () => {
         setLoading(true)
-        console.log(';')
         if (!erro) {
             if (/^[0-9]+$/.test(id)) {
                 fetch(`https://tweetstes.herokuapp.com/${id}`)
@@ -81,7 +80,7 @@ export default function Index({ allPosts }: Props) {
             } else {
                 addErro("só números são permitidos! 😡")
             }
-        } 
+        }
     }
 
     const addErro = (texto: string) => {
