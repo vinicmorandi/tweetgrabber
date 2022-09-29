@@ -4,9 +4,11 @@ module.exports = {
     extend: {
       colors: {
         'accent-1': '#FAFAFA',
+        'white': '#f2f2f2',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
-        success: '#0070f3',
+        'grey': '#333',
+        main: '#0067b8',
         cyan: '#79FFE1',
       },
       spacing: {
