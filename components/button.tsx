@@ -28,9 +28,9 @@ const Button = ({ texto, link, classes, clickFunction, disabled }: Props) => {
             <button
                 className={cn(`bg-main border border-main text-white font-bold pt-1 pb-2 px-6 duration-200 transition-colors ${classes}`, {
                     'hover:bg-white hover:text-main': !disabled,
-                    'opacity-75': disabled,
+                    'opacity-75 cursor-not-allowed pointer-events-none': disabled,
                 })}
-                onClick={() => { if (clickFunction) clickFunction() }}
+                onClick={() => { if (clickFunction && !disabled) clickFunction() }}
             >
                 {texto}
             </button>
