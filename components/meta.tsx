@@ -11,7 +11,7 @@ const Meta = () => {
             <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
             <meta
                 name="description"
-                content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+                content={`website para baixar vídeos do twitter gratuitamente - feito por @vinicmorandi`}
             />
         </Head>
     )
