@@ -12,7 +12,7 @@ const Layout = ({ preview, children }: Props) => {
         <>
             <Meta />
             <div className="flex h-screen justify-center items-center">
-                <main className='shadow-md rounded p-10'>{children}</main>
+                <main className='md:shadow-md rounded p-10'>{children}</main>
             </div>
         </>
     )

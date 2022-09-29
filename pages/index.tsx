@@ -100,7 +100,7 @@ export default function Index({ allPosts }: Props) {
                 <Container>
                     <Intro />
                     <section className='w-full mt-4 flex justify-between'>
-                        <input onChange={(e) => alteraId(e.target.value)} className="appearance-none w-10/12 border pb-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="(ex: 1574587509102718981)" />
+                        <input onChange={(e) => alteraId(e.target.value)} className="appearance-none text-sm w-10/12 border pb-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="(ex: 1574587509102718981)" />
                         <Button texto='buscar' clickFunction={envia} disabled={loading} />
                     </section>
                     <div className={cn("text-xs mt-1 h-2 text-red-500 transition duration-300", {
