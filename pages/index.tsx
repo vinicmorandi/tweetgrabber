@@ -107,6 +107,7 @@ export default function Index({ allPosts }: Props) {
                         'opacity-0': !animacaoController,
                         'opacity-100': animacaoController,
                     })}>{erro} </div>
+                    <div className={"text-xs text-center text-gray-400 mt-1 h-2"}>feito por <a className='text-main' target="_blank" href='https://twitter.com/vinicmorandi'>@vinicmorandi</a></div>
                 </Container>
             </Layout>
         </>
